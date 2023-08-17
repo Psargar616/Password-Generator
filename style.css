@@ -107,7 +107,7 @@ h1 {
   text-transform: uppercase;
   transform: translateY(-50%);
 }
-
+/* copy button */
 .display-container button {
   position: absolute;
   top: 50%;
@@ -117,6 +117,27 @@ h1 {
   border: none;
   cursor: pointer;
 }
+.tooltip{
+    position: absolute;
+    font-size: 1.25rem;
+
+    color: var(--vb-yellow);
+    background-color: var(--lt-violet2);
+    top: -35px;
+    left: -25px;
+    padding: 5px 10px;
+    border-radius: 1rem;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 250ms ease-in-out;
+
+
+}
+.tooltip.active{
+    opacity: 1;
+    transform: scale(1);
+}
+
 
 .input-container {
   width: 100%;
@@ -264,3 +285,23 @@ h1 {
 .active{
     scale: 1;
 }
+
+/* to apply designs to slider thumb  in firefox browser*/
+
+.slider::-moz-range-thumb {
+    position: relative;
+    z-index: 1;
+    appearance: none;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background: var(--vb-yellow);
+    box-shadow: 0px 0px 20px 0px rgba(255, 229, 61, 0.50);
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb:hover {
+    outline: 2px solid var(--vb-yellow);
+    background-color: var(--dk-violet);
+    box-shadow: 0px 0px 25px 5px rgba(255, 229, 61, 0.80);
+  }
