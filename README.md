@@ -3,8 +3,8 @@
 Created a 'Random Password Generator' using HTML, CSS and JS.
 
 ## Project Screenshots
-
-
+![ss1](projectScreenshots/screencapture-1.png)
+![ss2](projectScreenshots/screencapture-2.png)
 ## Demo Link
 [Live Link]()
 
