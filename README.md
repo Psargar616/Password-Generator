@@ -6,7 +6,7 @@ Created a 'Random Password Generator' using HTML, CSS and JS.
 ![ss1](projectScreenshots/screencapture-1.png)
 ![ss2](projectScreenshots/screencapture-2.png)
 ## Demo Link
-[Live Link]()
+[Live Link](https://psargar616.github.io/Password-Generator/)
 
 ## New Learnings 
 
