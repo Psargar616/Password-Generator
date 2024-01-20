@@ -52,7 +52,10 @@ body {
     #4b134f,
     #c94b4b
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4b134f, #c94b4b);
+  /* background: linear-gradient(to right, #4b134f, #c94b4b); */
+  background: url(./images/pexels-junghua.jpg) no-repeat ;
+  background-size:cover;
+
 }
 
 .container {
@@ -62,11 +65,15 @@ body {
 
 h1 {
   color: var(--pl-white);
-  opacity: 0.75;
+  /* opacity: 0.60; */
   text-transform: uppercase;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 2px;
+  /* background-color: #000; */
+  padding: 0.5rem;
+  border-radius: 1rem;
+  text-shadow: gray;
 }
 
 .display-container {
